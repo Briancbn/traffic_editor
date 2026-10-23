@@ -10,7 +10,7 @@ on:
 jobs:
   tsan_test:
     name: rmf_traffic_editor tsan
-    uses: open-rmf/rmf_ci_templates/.github/workflows/reusable_build.yaml@main
+    uses: Briancbn/rmf_ci_templates/.github/workflows/reusable_build.yaml@fix/tsan
     with:
       dist-matrix: |
           [{"ros_distribution": "humble",
